@@ -1,0 +1,53 @@
+
+.container{
+max-width: 600px;
+border: 2px solid #dedede;
+padding: 15px;
+margin: 12px auto;
+}
+
+.heading{
+text-align:center;
+padding: 3px;
+}
+table{
+border: 2px solid #dedede;
+border-collapse: collapse;
+margin: 5px;
+width: 100%;
+padding: 15px;
+}
+td, th {
+  border:2px solid #dedede;
+  padding: 10px;
+text-align: left;
+}
+.status{
+   width: 6px;
+   height: 6px;
+   border: 2px solid darkgreen;
+   background-color: darkgreen;
+   border-radius: 50%;
+}
+.edit-btn{
+   border-radius: 5px;
+   padding: 8px;
+   border: 2px solid #dedede;
+   background-color:rgb(69, 69, 195);
+   color: white;
+}
+
+.edit-btn:hover{
+   background-color:#dedede;
+   color: black;
+}
+.delete-btn{
+   border-radius: 5px;
+   padding: 8px;
+   border: 2px solid #dedede
+}
+.delete-btn:hover{
+  background-color:rgb(69, 69, 195);
+  color:white;
+  border: 2px solid #dedede
+}
